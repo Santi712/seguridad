@@ -9,6 +9,9 @@
 </head>
 <body>
     <section class="slider" id="pantalla">
+        <div class="container" id="pag0">
+            <h1></h1>
+        </div>
         <div class="container" id="pag1">
             <h1>Adivina el correo phishing</h1>
             <div id="game-container">
@@ -33,7 +36,8 @@
         <div class="container" id="pag3">
             <h1>¡Bienvenido al acertijo cifrado!</h1>
             <p>Para resolver este acertijo, debes adivinar qué letra ha sido cifrada.</p>
-            <p>Agudiza tu ingenio: <br> Es una letra muy pesada <br>en braile te da tres puntos </p>
+            <p><ins>Agudiza tu ingenio con estas pistas:</ins></p>
+            <p class="pistas"><b>Es una letra muy pesada.<br>En braile te da tres puntos.</b></p>
 
             <form>
             <label for="respuesta">Prueba tu respuesta aquí:</label>
@@ -46,11 +50,12 @@
             <h1>Crea una Contraseña Segura</h1>
             <label for="contraseña">Ingrese una contraseña:</label>
             <input type="password" id="contraseña">
+            <br>
             <button onclick="evaluarContraseña()">Evaluar</button>
             <p id="result2"></p>
             <script src="javascript/password.js" charset="utf-8"></script>
         </div>
-        <div class="container" id="pag6">
+        <div class="container" id="pag5">
             <h1>Desafío de Cifrado y Descifrado</h1>
             <p>En lo profundo de la noche, en un manto estrellado,<br>
               un secreto ancestral ha sido cifrado y guardado.<br>
@@ -67,7 +72,7 @@
             <script src="javascript/cifrado.js" charset="utf-8"></script>
 
         </div>
-        <div class="container" id="pag5">
+        <div class="container" id="pag6">
             <h1>¿Sabes cuál es la palabra secreta?</h1>
             <div class="divLetras">
                 <input class="letra" type="text" id="letraN">
@@ -77,10 +82,6 @@
                 <input class="letra" type="text" id="letraT">
             </div>
             <script src="javascript/token.js" charset="utf-8"></script>
-        </div>
-        <div class="container" id="pag6">
-            <h1 id="despedida"></h1>
-            <h4>Espero verte en  mi próxima aventura con JS</h4>
         </div>
     </section>
 </body>

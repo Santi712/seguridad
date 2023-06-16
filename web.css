@@ -27,6 +27,11 @@
         margin-bottom: 15px;
     }
 
+    .pistas{
+        color: black;
+        background-color: lime;
+    }
+
     .container {
     display: flex;
     justify-content: center;
