@@ -53,3 +53,4 @@ inputLetraT.addEventListener("change", function () {
         document.getElementById("letraT").style.backgroundColor = "red";
 }
 });       
+

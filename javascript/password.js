@@ -21,3 +21,4 @@ function evaluarContraseña() {
       result2.innerHTML = "¡La contraseña es segura! Tu letra es la 'T'.";
     }
   }
+  

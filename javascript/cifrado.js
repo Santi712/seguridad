@@ -27,3 +27,4 @@ function cifrar() {
 
     document.getElementById('output-text').value = output;
   }
+  

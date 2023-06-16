@@ -64,5 +64,3 @@ document.addEventListener("DOMContentLoaded", function() {
     // Start the game by displaying the first email
     displayCurrentEmail();
     });
-    
-    
