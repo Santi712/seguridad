@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
+    text-align: center;
+    }
+    
+    body{
+     background: #1edec1;
+    }
+
+    h1{
+    margin: 2;
+    }
+
+    h4{
+    margin: 10;
+    }
+
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1edec1;
+    padding: 30%;
+    height: 100%;
+    }
+
+    input {
+    padding: 10px;
+    border-radius: 3px;
+    }
+
+    .letra{           
+    padding: 4px;
+    border-radius: 3px; 
+    width: 15px;
+    background: #1edec1; 
+    }
+
+
+    button {
+    padding: 10px;
+    background: #4076f3;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #4076f3;
+    color: rgb(255, 255, 255);
+    }
+
+    #response {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(255, 255, 254);
+    }
+
+    #alertaRoja{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: ce0nter;
+    background-color: #f36740;
+    font-style: italic;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    }
+
+    .slider{
+        position: relative;
+        top:0px;
+        margin: 0px;
+        padding:0px;
+        width: 100%;
+        height: 16%;
+        overflow:hidden;
+        background: #1edec1;
+    }
+
+    .divLetras{
+    display:flex;
+    flex-direction: row-reverse;
+    }
+    
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+  }
