@@ -21,13 +21,13 @@
             <div id="result1"></div>
             <!-- <button id="next-button">Finalizar</button> -->
             </div>
-            <script src="phishing.js"></script>
+            <script src="javascript/phishing.js"></script>
         </div>
     
         <div class="container" id="pag2" >
             <h1>Pon a prueba tu memoria: <span id="result"></span></h1>
             <div class="grid"></div>
-            <script src="memory.js" charset="utf-8"></script>
+            <script src="javascript/memory.js" charset="utf-8"></script>
         </div>
 
         <div class="container" id="pag3">
@@ -40,7 +40,7 @@
             <input type="text" id="respuesta" name="respuesta"><br><br>
             <button type="submit" onclick="verificarRespuesta()">Enviar</button>
             </form>
-            <script src="web.js" charset="utf-8"></script>
+            <script src="javascript/cesar.js" charset="utf-8"></script>
         </div>
         <div class="container" id="pag4"">
             <h1>Crea una Contraseña Segura</h1>
@@ -48,7 +48,7 @@
             <input type="password" id="contraseña">
             <button onclick="evaluarContraseña()">Evaluar</button>
             <p id="result2"></p>
-            <script src="password.js" charset="utf-8"></script>
+            <script src="javascript/password.js" charset="utf-8"></script>
         </div>
         <div class="container" id="pag6">
             <h1>Desafío de Cifrado y Descifrado</h1>
@@ -64,7 +64,7 @@
             </div>
             <br>
             <textarea id="output-text" placeholder="¿?" readonly></textarea>
-            <script src="cifrado.js" charset="utf-8"></script>
+            <script src="javascript/cifrado.js" charset="utf-8"></script>
 
         </div>
         <div class="container" id="pag5">
@@ -76,69 +76,12 @@
                 <input class="letra" type="text" id="letraO">
                 <input class="letra" type="text" id="letraT">
             </div>
+            <script src="javascript/token.js" charset="utf-8"></script>
         </div>
         <div class="container" id="pag6">
             <h1 id="despedida"></h1>
             <h4>Espero verte en  mi próxima aventura con JS</h4>
         </div>
     </section>
-    <script>
-        
-       const inputLetraN = document.getElementById("letraN");
-      
-       inputLetraN.addEventListener("change", function () {
-           const valorInputN = letraN.value;
-           if (valorInputN=="N"|| valorInputN=="n") {
-               document.getElementById("letraN").style.backgroundColor = "green";
-           } else {
-               document.getElementById("letraN").style.backgroundColor = "red";
-       }
-       });
-
-       const inputLetraE = document.getElementById("letraE");
-      
-       inputLetraE.addEventListener("change", function () {
-           const valorInputE = inputLetraE.value;
-           if (valorInputE=="E"|| valorInputE=="e") {
-               document.getElementById("letraE").style.backgroundColor = "green";
-           } else {
-               document.getElementById("letraE").style.backgroundColor = "red";
-       }
-       });
-
-       const inputLetraK = document.getElementById("letraK");
-      
-       inputLetraK.addEventListener("change", function () {
-           const valorInputK = inputLetraK.value;
-           if (valorInputK=="K"|| valorInputK=="k") {
-               document.getElementById("letraK").style.backgroundColor = "green";
-           } else {
-               document.getElementById("letraK").style.backgroundColor = "red";
-       }
-       });
-
-       
-       const inputLetraO = document.getElementById("letraO");
-      
-       inputLetraO.addEventListener("change", function () {
-           const valorInputO = inputLetraO.value;
-           if (valorInputO=="O"|| valorInputO=="o") {
-               document.getElementById("letraO").style.backgroundColor = "green";
-           } else {
-               document.getElementById("letraO").style.backgroundColor = "red";
-       }
-       });
-
-       const inputLetraT = document.getElementById("letraT");
-      
-       inputLetraT.addEventListener("change", function () {
-           const valorInputT = inputLetraT.value;
-           if (valorInputT=="T"|| valorInputT=="t") {
-               document.getElementById("letraT").style.backgroundColor = "green";
-           } else {
-               document.getElementById("letraT").style.backgroundColor = "red";
-       }
-       });       
-    </script>
 </body>
 </html>
