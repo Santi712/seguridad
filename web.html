@@ -11,7 +11,6 @@
     <section class="slider" id="pantalla">
         <div class="container" id="pag1">
             <h1>Adivina el correo phishing</h1>
-            <br>
             <div id="game-container">
             <div id="email-subject"></div>
             <div id="email-sender"></div>
@@ -26,14 +25,14 @@
         </div>
     
         <div class="container" id="pag2" >
-            <h3>Pon a prueba tu memoria: <span id="result"></span></h3>
+            <h1>Pon a prueba tu memoria: <span id="result"></span></h1>
             <div class="grid"></div>
             <script src="memory.js" charset="utf-8"></script>
         </div>
 
         <div class="container" id="pag3">
-            <h1>¡Bienvenido al acertijo cifrado de César!</h1>
-            <p>Para resolver este acertijo, debes adivinar qué letra ha sido cifrada utilizando el cifrado de César.</p>
+            <h1>¡Bienvenido al acertijo cifrado!</h1>
+            <p>Para resolver este acertijo, debes adivinar qué letra ha sido cifrada.</p>
             <p>Agudiza tu ingenio: <br> Es una letra muy pesada <br>en braile te da tres puntos </p>
 
             <form>
@@ -59,8 +58,10 @@
               enigma ancestral que debes descifrar.</p>
             <textarea id="input-text" placeholder="Prueba con una frase"></textarea>
             <br>
-            <button onclick="cifrar()">Cifrar</button>
-            <button onclick="descifrar()">Descifrar</button>
+            <div class="eleccion">
+                <button onclick="cifrar()">Cifrar</button>
+                <button onclick="descifrar()">Descifrar</button>
+            </div>
             <br>
             <textarea id="output-text" placeholder="¿?" readonly></textarea>
             <script src="cifrado.js" charset="utf-8"></script>
@@ -68,8 +69,6 @@
         </div>
         <div class="container" id="pag5">
             <h1>¿Sabes cuál es la palabra secreta?</h1>
-            <h4></h4>
-            <br />
             <div class="divLetras">
                 <input class="letra" type="text" id="letraN">
                 <input class="letra" type="text" id="letraE">
